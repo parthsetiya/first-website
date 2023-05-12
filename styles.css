@@ -77,22 +77,21 @@ p {
   color: white;
 }
 
-.fixture_sponsor {
+.row2 {
   display: flex;
   position: absolute;
   justify-content: space-around;
   align-items: center;
   top: 19px;
-  right: 8px;
-  bottom: -850px;
+  right: 20px;
+  bottom: -900px;
 }
 
 .psg_logo {
  border-top: 4px;
  border-bottom: 4px;
  border-right: 15px;
- border-left: 15px;
- border-style: solid;
+ border-left: 15px; border-style: solid;
 }
 
 .lineup {
@@ -101,6 +100,13 @@ p {
   max-width: 100%;
   max-height: 100%;
 }
+
+footer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 
