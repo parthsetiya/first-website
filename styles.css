@@ -102,10 +102,12 @@ p {
 }
 
 footer {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  position: absolute;
+  bottom: 0px;
+  top: 1600px;
 }
+
+
 
 
 
