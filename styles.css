@@ -63,7 +63,7 @@ nav a {
 
 .psg_logo_text {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
   align-items: center;
   padding: 20px;
   position: absolute;
@@ -80,7 +80,7 @@ p {
 .row2 {
   display: flex;
   position: absolute;
-  justify-content: space-around;
+  justify-content: space-between;
   align-items: center;
   top: 19px;
   right: 20px;
@@ -104,7 +104,8 @@ p {
 footer {
   position: absolute;
   bottom: 0px;
-  top: 1600px;
+  top: 1551px;
+  margin: 0;
 }
 
 
