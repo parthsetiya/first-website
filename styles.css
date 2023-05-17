@@ -1,5 +1,6 @@
 html {
   background-color: rgb(0, 65, 112);
+  flex-shrink: 0;
 }
 
 
@@ -15,6 +16,7 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  overflow: auto;
 }
 
 h1 {
@@ -84,7 +86,7 @@ p {
   align-items: center;
   top: 19px;
   right: 20px;
-  bottom: -900px;
+  bottom: -930px;
 }
 
 .psg_logo {
@@ -106,6 +108,7 @@ footer {
   bottom: 0px;
   top: 1551px;
   margin: 0;
+  overflow: auto;
 }
 
 
