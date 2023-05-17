@@ -16,7 +16,6 @@ header {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  overflow: auto;
 }
 
 h1 {
@@ -34,15 +33,12 @@ h2 {
   margin-right: 20px;
 }
 
-nav {
+.navbar {
   display: flex;
-  justify-content: flex-end;
-  align-items: flex-end;
-  margin-left: auto;
-  position: absolute;
-  bottom: 8px;
-  right: 0;
+  justify-content: space-between; 
+  align-items: center; 
 }
+
 
 nav ul {
   display: flex;
