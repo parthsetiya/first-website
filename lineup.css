@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     background-color: rgba(21, 30, 45, 255);
     border: none;
-    height: 20vh;
+    height: 20%;
   }
   
   .left-div {
@@ -54,10 +54,33 @@ body {
     animation: 3s ease;
   }
 
-  .right-div a:hover{
-    background-color: black;
+  .right-div a {
+    margin-right: 1.5vh;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: relative; 
+    animation: 3s ease;
+    z-index: 1;
   }
 
+.right-div a:hover::before {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: -15px; 
+      right: -15px; 
+      bottom: 0;
+      background-color: black;
+      opacity: 0.5;
+      z-index: -1; 
+  }
+
+  .right-div a:hover {
+    background-color: black
+  }
   .our-lineup {
     display: flex;
     justify-content: center;
@@ -72,3 +95,140 @@ body {
     margin-top: 1vh;
     font-weight: 100;
   }
+
+  * {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    display: flex;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .card {
+    background-color: rgba(21, 30, 45, 255);
+    width: 30vh;  
+    margin: 2vh; 
+    border-radius: 15px;   
+  }
+
+  .card-image {
+    height: 37vh;
+    margin-bottom: 2vh;
+    background-size: cover;
+    border-radius: 15px 15px 0 0 ;
+  }
+
+  .player-1 {
+    background-image: url('mbappe\ card.jpg');
+  }
+
+  .player-2 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-3 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-4 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-5 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-6 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-7 {
+    background-image: url('mbappe\ card.jpg');
+  }
+
+  .player-8 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-9 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-10 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-11 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-12 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-13 {
+    background-image: url('mbappe\ card.jpg');
+  }
+
+  .player-14 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-15 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-16 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-17 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-18 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-19 {
+    background-image: url('mbappe\ card.jpg');
+  }
+
+  .player-20 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-21 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-22 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-23 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .player-24 {
+    background-image: url('mbappe\ card.jpg')
+  }
+
+  .card h2 {
+    padding: 10px;
+    text-align: center;
+  }
+
+  .card p {
+    padding: 10px;
+    text-align: center;
+  }
+
