@@ -58,13 +58,13 @@ body {
     background-color: black;
   }
 
-  .Photo-Gallery {
+  .our-lineup {
     display: flex;
     justify-content: center;
     text-align: center;
   }
   
-  .Photo-Gallery h2{
+  .our-lineup h2{
     color: white;
     font-family: 'Noto Naskh Arabic', serif;
     font-size: 60px;
@@ -72,36 +72,3 @@ body {
     margin-top: 1vh;
     font-weight: 100;
   }
-
-.row1{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-}  
-
-img {
-    height: 30vh;
-    width: 30vh;
-}
-
-.row2{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-} 
-
-.row3{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-} 
-
- 
-
-

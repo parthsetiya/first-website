@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     background-color: rgba(21, 30, 45, 255);
     border: none;
-    height: 20vh;
+    height: 100%;
   }
   
   .left-div {
@@ -53,7 +53,11 @@ body {
     text-decoration: none;
     transition: background-color 0.3s ease;
     position: relative; 
-  z-index: 1;
+    animation: 3s ease;
+  }
+
+  .right-div a:hover{
+    background-color: black;
   }
 
   .right-div a:hover {
@@ -82,9 +86,10 @@ body {
   }
   
   .logo-text-container {
-    height: 62vh;
-    width: 90vh;
+    height: 120%;
+    width: 90%;
     display: flex;
+    flex-grow: 1;
   }
 
   .logo-text-container img {
@@ -101,8 +106,8 @@ body {
   }
   
   .section-1-right {
-    width: 100vh;
-    height: 100vh;
+    width: 100%;
+    height: 130%;
     vertical-align: middle;
   }
 
@@ -120,9 +125,9 @@ body {
   }
 
   .fixtures {
-    width: 79vh;
+    width: 83vh;
     background-color: rgba(21, 30, 45, 255);
-    height: 46vh;
+    height: 50vh;
     display: flex;
     padding: 2vh;
     margin-right: 2vh;
@@ -135,6 +140,7 @@ body {
     justify-content: space-around;
     align-items: center;
     padding: 2vh;
+    padding-bottom: 0vh;
   }
 
   .section-2-right img {
@@ -153,15 +159,21 @@ body {
 
   * {box-sizing:border-box}
 
+  
   .slideshow-container {
     max-width: 100vw;
     max-height: 10%;
     position: relative;
+    margin: 2vh;
+    margin-top: -6vh;
+    margin-bottom: 0vh;
   }
+  
   
   .mySlides {
     display: none;
   }
+  
   
   .prev, .next {
     cursor: pointer;
@@ -184,10 +196,12 @@ body {
     border-radius: 3px 0 0 3px;
   }
   
+  
   .prev:hover, .next:hover {
     background-color: rgba(0,0,0,0.8);
   }
   
+ 
   .text {
     color: #f2f2f2;
     font-size: 15px;
@@ -198,6 +212,7 @@ body {
     text-align: center;
   }
   
+  
   .numbertext {
     color: #f2f2f2;
     font-size: 12px;
@@ -205,6 +220,7 @@ body {
     position: absolute;
     top: 0;
   }
+  
   
   .dot {
     cursor: pointer;
@@ -221,6 +237,7 @@ body {
     background-color: #717171;
   }
   
+ 
   .fade {
     animation-name: fade;
     animation-duration: 1.5s;
