@@ -73,18 +73,6 @@ body {
     background-color: black
   }
 
-  .right-div a:hover::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: -15px; 
-    right: -15px; 
-    bottom: 0;
-    background-color: black;
-    opacity: 0.5;
-    z-index: -1; 
-  }
-
   
   .section-1 {
     height: 52vh;
