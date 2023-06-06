@@ -81,6 +81,7 @@ body {
   .right-div a:hover {
     background-color: black
   }
+  
   .our-lineup {
     display: flex;
     justify-content: center;
@@ -225,10 +226,12 @@ body {
   .card h2 {
     padding: 10px;
     text-align: center;
+    color: white;
   }
 
   .card p {
     padding: 10px;
     text-align: center;
+    color: white;
   }
 

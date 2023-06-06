@@ -9,7 +9,7 @@ body {
     justify-content: space-between;
     background-color: rgba(21, 30, 45, 255);
     border: none;
-    height: 20vh;
+    height: 20%;
   }
   
   .left-div {
@@ -52,14 +52,21 @@ body {
     font-size: 50px;
     text-decoration: none;
     animation: 3s ease;
+  }
+
+  .right-div a {
+    margin-right: 1.5vh;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 50px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    position: relative; 
+    animation: 3s ease;
     z-index: 1;
   }
 
-  .right-div a:hover {
-    background-color: black
-  }
-
-  .right-div a:hover::before {
+.right-div a:hover::before {
       content: "";
       position: absolute;
       top: 0;
@@ -69,58 +76,21 @@ body {
       background-color: black;
       opacity: 0.5;
       z-index: -1; 
-    }
-  
-
-  .Photo-Gallery {
-    display: flex;
-    justify-content: center;
-    text-align: center;
-  }
-  
-  .Photo-Gallery h2{
-    color: white;
-    font-family: 'Noto Naskh Arabic', serif;
-    font-size: 60px;
-    margin: 0vh;
-    margin-top: 1vh;
-    font-weight: 100;
   }
 
-.row1{
+  .right-div a:hover {
+    background-color: black
+  }
+
+  .container {
     display: flex;
     justify-content: space-evenly;
-    align-items: center;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    border-radius: 15px;
-}  
+    flex-wrap: wrap;
+    margin: 2vh;
+  }
 
-img {
-    height: 30vh;
-    width: 30vh;
-}
-
-.row2{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    border-radius: 15px;
-} 
-
-.row3{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    margin-top: 3vh;
-    margin-bottom: 3vh;
-    border-radius: 15px;
-} 
-
-
-
- 
-
-
+  .sponsor {
+    background-color: white;
+    height: 40vh;
+    width: 40vh;
+  }
