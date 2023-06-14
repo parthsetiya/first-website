@@ -1,86 +1,65 @@
 body {
-    background-color: rgb(0, 65, 112);
-    flex-shrink: 0;
-    margin: 0px;
-  }
-  
-  .header {
-    display: flex;
-    justify-content: space-between;
-    background-color: rgba(21, 30, 45, 255);
-    border: none;
-    height: 20%;
-  }
-  
-  .left-div {
-    display: block;
-    flex-direction: column;
-    margin: 0px;
-  }
-  
-  .left-div h1 {
-    color: white;
-    font-size: 70px;
-    font-family: 'Fjalla One', sans-serif;
-    font-weight: lighter; 
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-left: 1vh;
-  }
-  
-  .left-div h2 {
-    color: white;
-    font-size: 60px;
-    font-family: 'Fjalla One', sans-serif;
-    font-weight: lighter;
-    margin-right: 20px;
-    margin-block-start: 0em;
-    margin-block-end: 0em;
-    margin-left: 1vh;
-  }
-  
-  .right-div {
-    display: flex;
-    flex-direction: row;
-    align-items: flex-end;
-  }
-  
-  .right-div a {
-    margin-right: 1.5vh;
-    color: white;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 50px;
-    text-decoration: none;
-    animation: 3s ease;
-  }
+  background-color: rgb(0, 65, 112);
+  margin: 0px;
+}
 
-  .right-div a {
-    margin-right: 1.5vh;
-    color: white;
-    font-family: 'Fjalla One', sans-serif;
-    font-size: 50px;
-    text-decoration: none;
-    transition: background-color 0.3s ease;
-    position: relative; 
-    animation: 3s ease;
-    z-index: 1;
-  }
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(21, 30, 45, 255);
+  border: none;
+  height: 100%;
+}
 
-.right-div a:hover::before {
-      content: "";
-      position: absolute;
-      top: 0;
-      left: -14px; 
-      right: -14px; 
-      bottom: 0;
-      background-color: black;
-      opacity: 1;
-      z-index: -1; 
-  }
+.left-div {
+  display: block;
+  flex-direction: column;
+  margin: 0px;
+}
 
-  .right-div a:hover {
-    background-color: black
-  }
+.left-div h1 {
+  color: white;
+  font-size: 70px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: lighter; 
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-left: 1vh;
+}
+
+.left-div h2 {
+  color: white;
+  font-size: 60px;
+  font-family: 'Fjalla One', sans-serif;
+  font-weight: lighter;
+  margin-right: 20px;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  margin-left: 1vh;
+}
+
+.right-div {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+}
+
+.right-div a {
+  margin-right: 1.5vh;
+  color: white;
+  font-family: 'Fjalla One', sans-serif;
+  font-size: 50px;
+  text-decoration: none;
+  transition: background-color 0.7s ease, text-decoration 0.7s ease ;
+  position: relative; 
+  animation: 3s ease;
+  padding: 0px 10px;
+}
+
+.right-div a:hover {
+  background-color: #808080;
+  text-decoration: underline;
+}
 
   .our-lineup {
     display: flex;
@@ -132,96 +111,85 @@ body {
   }
 
   .player-2 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('messi-card.webp')
   }
 
   .player-3 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('neymar-card.webp')
   }
 
   .player-4 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('ramos-card.webp')
   }
 
   .player-5 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('kimpembe-card.webp')
   }
 
   .player-6 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('pereira-card.jpeg')
   }
 
   .player-7 {
-    background-image: url('mbappe\ card.jpg');
+    background-image: url('donnarumma-card.webp')
   }
 
   .player-8 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('soler-card.webp')
   }
 
   .player-9 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('mendes-card.webp')
   }
 
   .player-10 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('el-card.webp')
   }
 
   .player-11 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('rico-card.webp')
   }
 
   .player-12 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('hugo-card.webp')
   }
 
   .player-13 {
-    background-image: url('mbappe\ card.jpg');
+    background-image: url('ismael-ard.webp');
   }
 
   .player-14 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('maria-card.webp')
   }
 
   .player-15 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('cavani-card.webp')
   }
 
   .player-16 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('diallo-card.webp')
   }
 
   .player-17 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('My\ project.jpg')
   }
 
   .player-18 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('areola-card.webp')
   }
 
   .player-19 {
-    background-image: url('mbappe\ card.jpg');
+    background-image: url('dagba-card.webp');
   }
 
   .player-20 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('silva-card.webp')
   }
 
   .player-21 {
-    background-image: url('mbappe\ card.jpg')
+    background-image: url('rabiot-card.webp')
   }
 
-  .player-22 {
-    background-image: url('mbappe\ card.jpg')
-  }
-
-  .player-23 {
-    background-image: url('mbappe\ card.jpg')
-  }
-
-  .player-24 {
-    background-image: url('mbappe\ card.jpg')
-  }
 
   .card h2 {
     padding: 10px;
@@ -235,3 +203,51 @@ body {
     color: white;
   }
 
+  .footer {
+    margin-bottom: 0;
+    background-color: rgb(25, 10, 23);
+    border: none;
+    height: 100%;
+  }
+  .footer-row-1 {
+    background-color: white;
+    width: 100%;
+    height: 7vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-row-2 {
+    background-color: rgb(25, 10, 23);
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .footer-row-3 {
+    background-color: rgb(25, 10, 23);
+    width: 100%;
+    height: 9vh;
+    display: flex;
+    justify-content: center;
+  }
+
+  .images {
+    padding: 0vh 4vh;
+  }
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+
+  .text h2{
+    color: white;
+    font-family: 'Noto Naskh Arabic', serif;
+    font-size: 60px;
+    margin: 0vh;
+    margin-top: 1vh;
+    font-weight: 100;
+    text-align: center;
+  }
