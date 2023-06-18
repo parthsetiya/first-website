@@ -75,6 +75,14 @@ body {
   display: flex;
 }
 
+.logo-text-container img{
+ border-top: 4px;
+ border-bottom: 4px;
+ border-right: 15px;
+ border-left: 15px; 
+ border-style: solid;
+}
+
 img {
   max-width: 100%;
   max-height: 100%;
@@ -112,7 +120,7 @@ img {
   height: 70vh;
   margin: 0vh;
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
   padding: 2vh;
   padding-bottom: 0vh;
@@ -261,6 +269,38 @@ img {
   padding: 0vh 4vh;
 }
 
+.fixtures{
+  display: block;
+}
+
 .match {
   display: flex;
+  justify-content: space-around;
+  vertical-align: middle;
+  text-align: center;
+  align-items: center;
+  font-size: 30px;
+}
+
+.match img{
+  height: 30vh;
+  width: 30vh;
+}
+
+
+.fixtures p{
+  color: white;
+  font-size: 30px;
+}
+
+
+#match-date{
+  color: white;
+  text-align: center;
+  font-size: 30px;
+}
+
+#vs-text{
+  color: white;
+  vertical-align: middle;
 }
