@@ -133,13 +133,6 @@ img {
   padding: 0vh;
 }
 
-.logo-text-container img,
-.fixtures {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
 * {
   box-sizing: border-box;
 }
