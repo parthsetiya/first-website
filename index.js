@@ -22,6 +22,14 @@ Papa.parse("./UpcomingMatches.csv", {
       document.getElementById("team1-name").innerText = nextMatch.Team1;
       document.getElementById("team2-name").innerText = nextMatch.Team2;
       document.getElementById("match-date").innerText = nextMatch.DateOfMatch;
+    } else {
+      document.getElementById("team1-img").style.display = "none";
+      document.getElementById("team2-img").style.display = "none";
+      document.getElementById("team1-name").style.display = "none";
+      document.getElementById("team2-name").style.display = "none";
+      document.getElementById("vs-text").style.display = "none";
+      document.getElementById("match-date").innerText = "No Upcoming Matches";
+      document.getElementById("match-date").style.fontSize = "60px";
     }
   },
 });

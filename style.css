@@ -75,12 +75,12 @@ body {
   display: flex;
 }
 
-.logo-text-container img{
- border-top: 4px;
- border-bottom: 4px;
- border-right: 15px;
- border-left: 15px; 
- border-style: solid;
+.logo-text-container img {
+  border-top: 4px;
+  border-bottom: 4px;
+  border-right: 15px;
+  border-left: 15px;
+  border-style: solid;
 }
 
 img {
@@ -262,8 +262,10 @@ img {
   padding: 0vh 4vh;
 }
 
-.fixtures{
-  display: block;
+.fixtures {
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
 }
 
 .match {
@@ -275,25 +277,23 @@ img {
   font-size: 30px;
 }
 
-.match img{
+.match img {
   height: 30vh;
   width: 30vh;
 }
 
-
-.fixtures p{
+.fixtures p {
   color: white;
   font-size: 30px;
 }
 
-
-#match-date{
+#match-date {
   color: white;
   text-align: center;
   font-size: 30px;
 }
 
-#vs-text{
+#vs-text {
   color: white;
   vertical-align: middle;
 }
