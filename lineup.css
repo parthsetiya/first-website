@@ -107,87 +107,87 @@ body {
   }
 
   .player-1 {
-    background-image: url('mbappe\ card.jpg');
+    background-image: url('/images/mbappe\ card.jpg');
   }
 
   .player-2 {
-    background-image: url('messi-card.webp')
+    background-image: url('/images/messi-card.webp')
   }
 
   .player-3 {
-    background-image: url('neymar-card.webp')
+    background-image: url('/images/neymar-card.webp')
   }
 
   .player-4 {
-    background-image: url('ramos-card.webp')
+    background-image: url('/images/ramos-card.webp')
   }
 
   .player-5 {
-    background-image: url('kimpembe-card.webp')
+    background-image: url('/images/kimpembe-card.webp')
   }
 
   .player-6 {
-    background-image: url('pereira-card.jpeg')
+    background-image: url('/images/pereira-card.jpeg')
   }
 
   .player-7 {
-    background-image: url('donnarumma-card.webp')
+    background-image: url('/images/donnarumma-card.webp')
   }
 
   .player-8 {
-    background-image: url('soler-card.webp')
+    background-image: url('/images/soler-card.webp')
   }
 
   .player-9 {
-    background-image: url('mendes-card.webp')
+    background-image: url('/images/mendes-card.webp')
   }
 
   .player-10 {
-    background-image: url('el-card.webp')
+    background-image: url('/images/el-card.webp')
   }
 
   .player-11 {
-    background-image: url('rico-card.webp')
+    background-image: url('/images/rico-card.webp')
   }
 
   .player-12 {
-    background-image: url('hugo-card.webp')
+    background-image: url('/images/hugo-card.webp')
   }
 
   .player-13 {
-    background-image: url('ismael-ard.webp');
+    background-image: url('/images/ismael-ard.webp');
   }
 
   .player-14 {
-    background-image: url('maria-card.webp')
+    background-image: url('/images/maria-card.webp')
   }
 
   .player-15 {
-    background-image: url('cavani-card.webp')
+    background-image: url('/images/cavani-card.webp')
   }
 
   .player-16 {
-    background-image: url('diallo-card.webp')
+    background-image: url('/images/diallo-card.webp')
   }
 
   .player-17 {
-    background-image: url('My\ project.jpg')
+    background-image: url('/images/My\ project.jpg')
   }
 
   .player-18 {
-    background-image: url('areola-card.webp')
+    background-image: url('/images/areola-card.webp')
   }
 
   .player-19 {
-    background-image: url('dagba-card.webp');
+    background-image: url('/images/dagba-card.webp');
   }
 
   .player-20 {
-    background-image: url('silva-card.webp')
+    background-image: url('/images/silva-card.webp')
   }
 
   .player-21 {
-    background-image: url('rabiot-card.webp')
+    background-image: url('/images/rabiot-card.webp')
   }
 
 
@@ -231,6 +231,7 @@ body {
     height: 9vh;
     display: flex;
     justify-content: center;
+    padding-bottom: 5px;
   }
 
   .images {

@@ -4,7 +4,7 @@ Papa.parse("./UpcomingMatches.csv", {
   complete: function (results) {
     const today = new Date();
     console.log(results.data);
-    today.setHours(0, 0, 0, 0); // To ignore time portion for comparison
+    today.setHours(0, 0, 0, 0); 
     const matches = results.data.filter((match) => {
       if (!match.DateOfMatch) {
         return false;
@@ -16,7 +16,7 @@ Papa.parse("./UpcomingMatches.csv", {
       return matchDate >= today;
     });
     if (matches.length > 0) {
-      const nextMatch = matches[0]; // Assuming the data is sorted by date
+      const nextMatch = matches[0];
       document.getElementById("team1-img").src = nextMatch["Team1ImgSrc"];
       document.getElementById("team2-img").src = nextMatch["Team2ImgSrc"];
       document.getElementById("team1-name").innerText = nextMatch.Team1;
@@ -30,6 +30,7 @@ Papa.parse("./UpcomingMatches.csv", {
       document.getElementById("vs-text").style.display = "none";
       document.getElementById("match-date").innerText = "No Upcoming Matches";
       document.getElementById("match-date").style.fontSize = "60px";
+      document.getElementById("fixtures").style.display = "flex";
     }
   },
 });

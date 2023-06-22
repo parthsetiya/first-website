@@ -107,7 +107,7 @@ img {
   max-height: 100%;
 }
 
-.fixtures {
+#fixtures {
   width: 83vh;
   background-color: rgba(21, 30, 45, 255);
   height: 50vh;
@@ -233,6 +233,7 @@ img {
   background-color: rgb(25, 10, 23);
   border: none;
   height: 100%;
+  margin: 0;
 }
 .footer-row-1 {
   background-color: white;
@@ -256,13 +257,15 @@ img {
   height: 9vh;
   display: flex;
   justify-content: center;
+  padding-bottom: 5px;
 }
 
 .images {
   padding: 0vh 4vh;
 }
 
-.fixtures {
+#fixtures {
+  display: block;
   align-items: center;
   justify-content: center;
   flex-direction: column;
@@ -270,7 +273,7 @@ img {
 
 .match {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   vertical-align: middle;
   text-align: center;
   align-items: center;
@@ -282,7 +285,7 @@ img {
   width: 30vh;
 }
 
-.fixtures p {
+#fixtures p {
   color: white;
   font-size: 30px;
 }
